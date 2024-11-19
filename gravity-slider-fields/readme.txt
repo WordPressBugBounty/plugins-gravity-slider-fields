@@ -5,8 +5,8 @@ Donate link: https://typewheel.xyz/give/?ref=Gravity%20Slider%20Fields
 Tags: gravity, forms, slider, field, number
 Requires at least: 3.1
 Requires PHP: 5.6
-Tested up to: 6.02
-Stable tag: 2.0
+Tested up to: 6.5.4
+Stable tag: 2.1
 License: GPLv2 or later
 
 Adds slider fields to Gravity Forms
@@ -65,6 +65,13 @@ Yes. You must install [Gravity Forms](http://gravityforms.com "Gravity Forms") f
 1. Custom slider options
 
 == Changelog ==
+
+= 2.1 =
+✨ IMPROVE: Adds basic styling for Orbital Theme
+✨ IMPROVE: Update noUiSlider to 15.8.1
+✨ IMPROVE: Adds field icon to form editor
+🐛 FIX: Fixes PHP deprecation errors
+🐛 FIX: Compatibility with Gravity Forms 2.9.0 theme styles
 
 = 2.0 =
 🐛 FIX: Maybe fix acceptance of default value

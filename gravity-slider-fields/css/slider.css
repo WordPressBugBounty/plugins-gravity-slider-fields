@@ -29,3 +29,26 @@ input[data-value-visibility="hover-drag"] + .slider-display .noUi-active .noUi-t
 .noUi-base {
 	z-index: 1;
 }
+
+/* Orbital Styles */
+.gform-theme--framework .gfield--type-slider .noUi-target {
+    border: 1px solid var(--gf-color-in-ctrl-light-darker);
+}
+.gform-theme--framework .gfield--type-slider .noUi-handle {
+    border: 1px solid var(--gf-ctrl-border-color);
+}
+.gform-theme--framework .gfield--type-slider .noUi-handle.noUi-active {
+    border: 1px solid var(--gf-ctrl-border-color-focus);
+    box-shadow: var(--gf-ctrl-shadow-focus);
+}
+.gform-theme--framework .gfield--type-slider .noUi-tooltip {
+    font-size: var(--gf-font-size-tertiary);
+    color: var(--gf-local-color);
+}
+.gform-theme--framework .gfield--type-slider .slider-display span[class$='val-relation'] {
+    font-size: var(--gf-font-size-secondary);
+    color: var(--gf-local-color);
+}
+.gform-theme--framework .gfield--type-slider .noUi-connect {
+    background-color: var(--gf-ctrl-accent-color);
+}
